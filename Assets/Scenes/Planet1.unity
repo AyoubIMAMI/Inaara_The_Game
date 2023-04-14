@@ -15026,7 +15026,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1404552399}
-  - component: {fileID: 1404552398}
   - component: {fileID: 1404552397}
   - component: {fileID: 1404552402}
   - component: {fileID: 1404552401}
@@ -15078,20 +15077,6 @@ MonoBehaviour:
     audioPitch: 0
     script: {fileID: 1127929671}
     dialogue: Attendez moi !!
---- !u!114 &1404552398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404552396}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73e89933d3614c848a627c0a459716c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionText: Team LowPoly
-  interactionRange: 3
 --- !u!4 &1404552399
 Transform:
   m_ObjectHideFlags: 0
