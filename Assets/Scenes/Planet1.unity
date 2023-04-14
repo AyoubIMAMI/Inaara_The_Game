@@ -17792,6 +17792,10 @@ PrefabInstance:
       propertyPath: interactionText
       value: Smile
       objectReference: {fileID: 0}
+    - target: {fileID: 993745909775457089, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
+      propertyPath: interactionRange
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 993745909775457090, guid: f9b4c640efcdcc649a8ebaac367eab26, type: 3}
       propertyPath: ShouldBeDestroyed
       value: 1
