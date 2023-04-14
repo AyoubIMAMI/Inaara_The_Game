@@ -5,20 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ColoreQuestGard : Quest
 {
-    private QuestManager questManager;
     public Quest QuestFinished;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        questManager = FindObjectOfType<QuestManager>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     
     public override void BeginQuest()
     {
