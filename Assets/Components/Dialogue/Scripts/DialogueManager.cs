@@ -36,12 +36,9 @@ public class DialogueManager : Interactable
             Debug.LogError("Cannot find object of type PlayerStateManager!");
             Destroy(this); // Self-destroy
         }
-        // Find the Player State Manager
+        // Find the Player State Manager 
         if (zoomInOut == null)
-        {
-            Debug.Log("Cannot find object of type ZoomInOut!");
             hasZoomInOut = false;
-        }
         
         
         // Searching "Canvas"
